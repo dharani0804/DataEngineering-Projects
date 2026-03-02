@@ -1,3 +1,45 @@
-.ipynb_checkpoints/
-.ipynb_checkpoints/
-ny_taxi_postgres_data/
+###########################
+# Python
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+############################
+# dbt
+############################
+target/
+dbt_packages/
+logs/
+dbt.log
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# IDE files
+############################
+.vscode/
+.idea/
+
+############################
+# Credentials / secrets
+############################
+*.json
+*.key
+*.pem
+*.env
+.env.*
+
+############################
+# Macros & temp files
+############################
+*.tmp
+*.swp
